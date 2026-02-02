@@ -1,3 +1,9 @@
+### 🛡️ Desafio Oracle Next Education (ONE)
+Este projeto foi desenvolvido como parte do programa Oracle Next Education em parceria com a Alura. 
+
+ <img src="src/Assets/Badge-Conversor.png" alt="Calculadora 2d" width="150">
+
+
 ### Descrição
 Este projeto é um conversor de moedas interativo desenvolvido em Java, projetado para rodar via linha de comando (Console). Ele consome a ExchangeRate-API para obter cotações em tempo real e permite que o usuário selecione a moeda de origem e destino, digite o valor e receba o resultado convertido instantaneamente. 
 O objetivo deste projeto foi praticar o consumo de APIs REST, manipulação de JSON e manipulação de taxas de câmbio atualizadas. 
@@ -43,5 +49,5 @@ O objetivo deste projeto foi praticar o consumo de APIs REST, manipulação de J
             ****************************************************
             Escolha uma opcao válida
 
- ### 🛡️ Desafio Oracle Next Education (ONE)
-Este projeto foi desenvolvido como parte do programa Oracle Next Education em parceria com a Alura. 
+ 
+
