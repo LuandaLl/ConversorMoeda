@@ -68,10 +68,13 @@ public class Main {
                         System.out.println("Selecione uma opção válida");
 
                 }
-                System.out.println("Digite o valor: ");
-                valorMoeda = leitura.nextDouble();
-                Moedas moeda1 = novaConsulta.consultaApi(tipoMoeda,moedaDesejada,valorMoeda);
-                System.out.println(moeda1);
+                if (escolha == 7){
+                    System.out.println("Programa Finalizado");
+                }else {
+                    System.out.println("Digite o valor: ");
+                    valorMoeda = leitura.nextDouble();
+                    Moedas moeda1 = novaConsulta.consultaApi(tipoMoeda,moedaDesejada,valorMoeda);
+                    System.out.println(moeda1);}
             } catch (Exception e){
                 System.out.println("Deu erro: " + e.getMessage());
             }
